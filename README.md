@@ -1,2 +1,2 @@
-# qizhenshuai.github.io
-个人主页:qizhenshuai.github.io
+# ifir.github.io
+个人网站
