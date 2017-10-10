@@ -11,7 +11,7 @@ body
     color: #222;
     background: #fff;
 }
-body
+/*body
 {
     min-width: 300px;
     max-width: 640px;
@@ -22,7 +22,7 @@ body
 
     -webkit-overflow-scrolling: touch;
             overflow-scrolling: touch;
-}
+}*/
 /* iconfont */
 ul
 {

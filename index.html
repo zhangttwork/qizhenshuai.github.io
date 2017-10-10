@@ -8,14 +8,15 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="keywords" content="" />
     <meta name="description" content="" />
-    <title>简历</title>
+    <title>Mr丶Q</title>
     <link rel="icon" type="image/x-icon" href="./img/me.jpeg">
     <link rel="stylesheet" type="text/css" href="./css/normalize.css">
     <link rel="stylesheet" type="text/css" href="./css/app-style.css">
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
 </head>
-<body scroll="no">
+<body>
     <!-- loading -->
-    <div class="loading">
+    <!-- <div class="loading">
         <div class="loading-wrap">
             <div class="line"></div>
             <div class="light">
@@ -26,291 +27,79 @@
         <div class="loading-text">
             <b>~~LOADING~~</b>
         </div>
+    </div> -->
+    <div class="box">
+        <canvas id="canvas"></canvas>
+        <div class="content">
+            <h3>Mr丶Q的空间</h3>
+            <span>Web front end Engineer</span>
+            <a href="./html/home/index.html">主页</a>
+            <a href="https://github.com/qizhenshuai" target="_blank">GitHub</a>
+            <a href="./html/about/index.html">About Me</a>
+        </div>
     </div>
-    <section class="container">
-        <!-- 第一页 -->
-        <section class="page section-pageone">
-            <div class="header text-center">
-                <img class="isme" src="./img/me.jpeg" alt="戚帅">
-            </div>
-            <div class="name">
-                <p>琪琪</p>
-            </div>
-            <div class="job">
-                <p>RN</p>
-            </div>
-            <div class="next next-pagetwo">
-                <span></span>
-                <span></span>
-            </div>
-        </section>
-        <!-- 第二页 -->
-        <section class="page section-pagetwo text-center">
-            <h1 class="page-title"><i class="icon icon-user"></i>个人信息</h1>
-            <ul class="per-list">
-                <li><b>地址：</b>山东</li>
-                <li><b>生日：</b>1992/10/16</li>
-                <li><b>学校：</b>北海大学</li>
-                <li><b>QQ：</b><a href="tel:5159577">5159577</a></li>
-                <li><b>仓库：</b><a href="https://github.com/qizhenshuai" target="_blank">github.com/qizhenshuai</a></li>
-                <li><b>网站：</b><a href="https://qizhenshuai.github.io" target="_blank">qizhenshuai.github.io</a></li>
-            
-            </ul>
-            <div class="next next-pagethree">
-                <span></span>
-                <span></span>
-            </div>
-        </section>
-        <!-- 第三页 -->
-        <section class="page section-pagethree text-center">
-            <h1 class="page-title"><i class="icon icon-skills"></i>技能信息</h1>
-            <div class="radar-box"></div>
-            <ul class="per-list">
-                <li>熟悉React Native框架各个控件的使用，熟悉React Native框架中的API的使用。</li>
-                <li>熟悉使用ReactNative+redux和ReactNative+Mobx开发。</li>
-                <li>熟悉使用React Native框架的开发流程。</li>
-                <li>熟练对项目中复用的组件的封装。</li>
-                <li>熟练使用react</li>
-            
-            </ul>
-            <div class="next next-pagefour">
-                <span></span>
-                <span></span>
-            </div>
-        </section>
-        <!-- 第四页 -->
-        <section class="page section-pagefour text-center">
-            <h1 class="page-title"><i class="icon icon-experienece"></i>项目经验(一)</h1>
-            <div class="project-box text-center">
-                <ul class="project-desc">
-                    <li>
-                        <div class="firm-label">
-                            <i class="label"></i>
-                            <div class="firm-name">
-                                <time>2016/11 -- 2017/01</time>
-                                <h3>ReactNative商城</h3>
-                                <h3>React Native</h3>
-                            </div>
-                        </div>
-                        <div class="project-info">
-                            <p>逻辑代码的编写，部分UI的编写，项目重构和项目优化。
-                                RN商城是一个使用ReactNative+redux框架来编写的一个商城APP。
-                                商城的商品的展示，对商品的连动选择。
-                                使用的微信登录、微信支付及微信分享。
-                                使用网易客服系统对接公司的客服系统。</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="firm-label">
-                            <i class="label"></i>
-                            <div class="firm-name">
-                                <time>2016/10 -- 2016/11</time>
-                                <h3>后台管理系统</h3>
-                                <h3>React</h3>
-                            </div>
-                        </div>
-                        <div class="project-info">
-                            <p>使用react.js进行代码的编写。对商品的展示，管理员的权限的编写。</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="firm-label">
-                            <i class="label"></i>
-                            <div class="firm-name">
-                                <time>2016/09 -- 2016/11</time>
-                                <h3>创意购APP</h3>
-                                <h3>ReactNative</h3>
-                            </div>
-                        </div>
-                        <div class="project-info">
-                            <p>app是一个帮助创意人实现创意变现的工具。
-                                此项目包含商品的选择，软文的编写，发布新品，二维码的生成。
-                                生成后的二维码可以保存到手机，复制链接地址，分享。</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="firm-label">
-                            <i class="label"></i>
-                            <div class="firm-name">
-                                <time>2016/03 -- 2016/06</time>
-                                <h3>石材信息网</h3>
-                                <h3>ReactNative</h3>
-                            </div>
-                        </div>
-                        <div class="project-info">
-                            <p>1、负责android+ios跨平台的框架搭建。
-                                2、使用AsyncStorage对数据的持久化存储。
-                                3、使用第三方封装框架，包括（下拉刷新、加载更多、TabBar等等）。
-                                4、使用支付宝支付功能。
-                                5、使用Redux对项目进行重构。
-                                本项目是使用React Native框架来开发。属于一款信息分享的平台。
-                                首页是一个关于行业的关键字展示，包括对公司或者是企业的介绍。
-                                产品页，是对产品进行展示，可以进行购买。注册登录后可对感兴趣的宝贝进行收藏。可以检索到自己想要的关键字。以及产品的筛选，最新的资讯等内容。
-                            </p>
-                        </div>
-                    </li>
-                    
-                </ul>
-            </div>
-            <div class="next next-pagefour">
-                <span></span>
-                <span></span>
-            </div>
-        </section>
-        <!-- 第五页 -->
-        <section class="page section-pagefour text-center">
-            <h1 class="page-title"><i class="icon icon-experienece"></i>项目经验(二)</h1>
-            <div class="project-box text-center">
-                <ul class="project-desc">
-                    <li>
-                        <div class="firm-label">
-                            <i class="label"></i>
-                            <div class="firm-name">
-                                <time>2016/03 -- 2016/07</time>
-                                <h3>社区管家</h3>
-                                <h3>Android</h3>
-                            </div>
-                        </div>
-                        <div class="project-info">
-                            <p>1、负责界面的设计和基本功能的实现
-                                2、负责阿姨工作记录页面、服务评论页面等页面的前后台实现。
-                                本项目是一款家政服务需求发布平台应用。注册登录后阿姨帐号可以编辑和上传个人简历信息，可以根据自己的需要设置工作时间、具体工作类型、薪资要求等服务相关的具体事项。同时阿姨还可以查看服务岗位列表，主动找寻合适的工作岗位。客户帐号则可以查看所有待岗的阿姨简历，并根据工作经验、薪资要求、工作类型等进行筛选，还能发布自己的需求。
-                            </p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="firm-label">
-                            <i class="label"></i>
-                            <div class="firm-name">
-                                <time>2016/01 -- 2016/03</time>
-                                <h3>欢聚</h3>
-                                <h3>Android</h3>
-                            </div>
-                        </div>
-                        <div class="project-info">
-                            <p>个人完成首页+个人中心
-                            1、首页的数据显示，对ListView进行优化及ViewPager滑动。
-                            2、首页页面的整体展示，实现下拉刷新和加载更新信息的功能。
-                            3、使用ImageLoader框架进行图片加载，点击图片显示详情。
-                            4、实现了个人中心界面，包含个人详情、搜索、设置、我的订单、分享、收藏、转发、评论等功能。
-                            5、实现第三方登录、注销和分享功能。
-                            这是一款服务类APP，展示周边的旅游信息，景点，附近用户。加入了聊天功能，可以与其他的用户交流和分享。同时也提供了娱乐园地，随时随地分享您的快乐。
-                            </p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="firm-label">
-                            <i class="label"></i>
-                            <div class="firm-name">
-                                <time>2015/11 -- 2015/12</time>
-                                <h3>餐饮服务管理后台</h3>
-                                <h3>Java</h3>
-                            </div>
-                        </div>
-                        <div class="project-info">
-                            <p>实现Tomcat装载Service，运用HTML标签、布局，绘制Jsp网页界面，运用JDBC连接数据库，实现对餐厅顾客开台、点菜/加菜、账目查询和结账等操作。这些模块都包含数据操作，多表关联，分页技术等。
-                            </p>
-                        </div>
-                    </li>
-                    
-                </ul>
-            </div>
-            <div class="next next-pagefour">
-                <span></span>
-                <span></span>
-            </div>
-        </section>
-        <!-- 第六页 -->
-        <section class="page section-pagefour text-center">
-            <h1 class="page-title"><i class="icon icon-experienece"></i>项目经验(三)</h1>
-            <div class="project-box text-center">
-                <ul class="project-desc">
-                    
-                    <li>
-                        <div class="firm-label">
-                            <i class="label"></i>
-                            <div class="firm-name">
-                                <time>2015/07 -- 2015/10</time>
-                                <h3>智通云（定制）--员工版</h3>
-                                <h3>Android</h3>
-                            </div>
-                        </div>
-                        <div class="project-info">
-                            <p>1、参与项目框架设计和搭建。
-                                2、使用ViewPager和handler实现图片自动轮播效果。
-                                3、使用ImageLoader进行图片的加载，解决图片闪烁错乱问题。
-                                4、解决因图片加载过多引发内存溢出的问题。
-                                5、使用ScrollView嵌套ListView展示数据。
-                                6、对项目进行维护更新。
-                                员工版APP是公司员工可以用来下订单，查询自己的销售明细，对公司的货物的库存的查询及销售开单，有办公功能可以记录每天的动态。每个员工都是老板的子账号，子账号之间是不能看到对方的信息。
-                            </p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="firm-label">
-                            <i class="label"></i>
-                            <div class="firm-name">
-                                <time>2015/03 -- 2015/07</time>
-                                <h3>智通云（定制）--老板版</h3>
-                                <h3>Android</h3>
-                            </div>
-                        </div>
-                        <div class="project-info">
-                            <p>1、参与项目的框架设计和搭建。
-                                2、解决app之间数据同步问题。
-                                3、使用volley和gson完成数据交互及数据解析，展示。
-                                4、实现自定义布局view展示员工的销售信息和库存情况。
-                                5、使用fragment嵌套数据加载。
-                                6、集成MOB短信验证。
-                                智通云是一个财务类记账软件配合电脑版，老板版是一个主账号针对所有子账号(员工版)进行查看销售情况和所有的订单和库存及盈利的情况。老板无论身在何地都可以对店内(公司)的运营情况一目了然。
-                            </p>
-                        </div>
-                    </li>
-                    
-                </ul>
-            </div>
-            <div class="next next-pagefour">
-                <span></span>
-                <span></span>
-            </div>
-        </section>
-        <!-- 第七页 -->
-        <!--
-        <section class="page section-pagefive text-center">
-            <h1 class="page-title"><i class="icon icon-show"></i>项目展示</h1>
-                <div class="text-center">
-                    <ul class="show-link">
-                    <li>
-                        <a href="http://www.xxx.com" target="_blank">
-                            <i class="link"></i>
-                            <div class="link-text">
-                                <p>www.xxx.com</p>
-                                <p>React Native</p>
-                            </div>
-                        </a>
-                    </li>
-                    
-                </ul>
-                </div>
-            <div class="next next-pagefour">
-                <span></span>
-                <span></span>
-            </div>
-        </section>-->
-        <!-- 第六页 -->
-        <section class="page section-pagesix text-center">
-            <h1 class="page-title"><i class="icon icon-msg"></i>小小结语</h1>
-            <div class="conclusion">
-                <p>移动端跨平台开发已成移动开发的重要领域，对React Native的开发有浓厚兴趣，自己尝试着不依赖任何框架编写了这个小小的简历网站，当然集设计和Coding为一身的我表示网站在编写和设计时确实是遇到了一些棘手的小问题，不过都被我优雅地解决掉了^_^</p>
-                <p>最后，希望喜欢此网站的你就不要吝惜约我面试(我不会乱说的)。言归正传，自认为编程枯燥无味的我，直到有一天我遇到了React Native这个框架，有一种初恋般的感觉，虽然接触的比较早，早期开发中遇到了各种各样的问题，但是丝毫没有影响我学习移动跨平台开发的动力。希望通过在工作中结交几个志同道合的好朋友，一起探索新的技术。</p>
-            </div>
-            <div class="prev">
-                <span></span>
-                <span></span>
-            </div>
-        </section>
-    </section>
     <script type="text/javascript" src="./js/utils.js"></script>
     <script type="text/javascript" src="./js/app.js"></script>
+    <script>
+    var balls = [];
+//    var ballColors = [
+//        '0, 153, 204, ',
+//        '153, 51, 204, ',
+//        '153, 204, 0, ',
+//        '255, 187, 51, ',
+//        '255, 136, 0, ',
+//        '255, 68, 68, '
+//    ];
+    var ballColors = [
+        '255, 0, 0, ',
+        '205, 51, 255, ',
+        '0, 64, 255, ',
+        '0, 255, 255, ',
+        '153, 254, 0, ',
+        '254, 254, 0, ',
+        '255, 101, 1, '
+    ];
+    window.onload = function () {
+        var canvas = document.getElementById('canvas');
+        var context = canvas.getContext('2d');
+        init(context);
+        window.onresize = function () {
+            init(context);
+        };
+        canvas.onclick = function () {
+            init(context);
+        }
+    };
+    function init (context) {
+        var screen = screenSize();
+        canvas.width = screen.width;
+        canvas.height = screen.height;
+        var num = parseInt(screen.width * screen.height / 100000);
+        if (num < 6) num = 6;
+        balls = [];
+        for (var i = 0; i < num; i++) {
+            var opacity = 0.06 + Math.random() * 0.16;
+            var color = 'rgba(' + ballColors[parseInt(Math.random() * 7)] + opacity + ')';
+            var ball = {
+                x: parseInt(200 * Math.random() * screen.width / 200),
+                y: parseInt(200 * Math.random() * screen.height / 200),
+                r: 30 + parseInt(Math.random() * (10 * num)),
+                c: color
+            };
+            balls.push(ball);
+            paintBall(context, ball.x, ball.y, ball.r, ball.c);
+        }
+    }
+    function paintBall(context, x, y, r, c) {
+        context.fillStyle = c;
+        context.beginPath();
+        context.arc(x, y, r, 0, 2 * Math.PI, false);
+        context.closePath();
+        context.fill();
+    }
+    function screenSize () {
+        return {height: document.documentElement.clientHeight, width: document.documentElement.clientWidth};
+    }
+</script>
 </body>
 </html>

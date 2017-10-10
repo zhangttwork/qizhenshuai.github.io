@@ -1,0 +1,56 @@
+body, html {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        font-family: "Microsoft YaHei";
+    }
+
+    .box {
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    .box .content {
+        width: 320px;
+        height: 230px;
+        margin: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    .box .content h3 {
+        text-align: center;
+        color: #333;
+        font-size: 25px;
+        font-weight: 500;
+        margin: 10px 0;
+    }
+    .box .content span {
+        text-align: center;
+        color: #999;
+        font-size: 18px;
+        width: 100%;
+        display: block;
+        margin-bottom: 40px;
+        font-family: "consolas";
+    }
+    .box .content a {
+        text-decoration: none;
+        text-align: center;
+        color: #777;
+        font-size: 16px;
+        display: block;
+        margin: 6px 0;
+        padding: 6px 0;
+    }
+    .box .content a:hover {
+        color: #333;
+    }
+    #canvas {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
