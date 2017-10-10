@@ -17,7 +17,7 @@ var data = {
           "img": "https://raw.githubusercontent.com/beautifulBoys/beautifulBoys.github.io/master/source/home/img/a16.jpg",
           "site": {
             "official": "",
-            "model": "https://beautifulboys.github.io/html/responsive/"
+            "model": "https://qizhenshuai.github.io/html/responsive/"
           },
           "content": "这个项目是用Bootstrap做的一个响应式的后台管理系统。用了element-ui, echarts, baiduMap等，项目还在不定期完善和填充内容。"
         },
@@ -28,7 +28,7 @@ var data = {
           "img": "https://raw.githubusercontent.com/beautifulBoys/beautifulBoys.github.io/master/source/home/img/a1.jpg",
           "site": {
             "official": "http://www.onlyphoto.net.cn/",
-            "model": "https://beautifulboys.github.io/html/weiyi/"
+            "model": "https://qizhenshuai.github.io/html/weiyi/"
           },
           "content": "这个网站是在大四时课余时间写的，算是正式工作之前写的最用心的一个网页了，当时彻底是被他的页面设计和页面效果给迷住了。"
         },
@@ -39,7 +39,7 @@ var data = {
           "img": "https://raw.githubusercontent.com/beautifulBoys/beautifulBoys.github.io/master/source/home/img/a2.jpg",
           "site": {
             "official": "http://www.mi.com/",
-            "model": "https://beautifulboys.github.io/html/xiaomi/"
+            "model": "https://qizhenshuai.github.io/html/xiaomi/"
           },
           "content": "不知不觉间，前前后后也用了三部小米手机和一个平板了，也渐渐从路人进化成了一个米粉，喜欢小米。"
         },
@@ -50,7 +50,7 @@ var data = {
           "img": "https://raw.githubusercontent.com/beautifulBoys/beautifulBoys.github.io/master/source/home/img/a3.jpg",
           "site": {
             "official": "https://movie.douban.com/",
-            "model": "https://beautifulboys.github.io/html/douban/"
+            "model": "https://qizhenshuai.github.io/html/douban/"
           },
           "content": "一直都听说：豆瓣的网站很有设计感，无论是配色、排版还是风格都很别致，是用心设计过的优秀作品。在此特意模仿一个，以提高自身的审美和编码能力。用PHP写的简单后台接口，提供Ajax请求。（在此处php已剔除，模拟的假请求）"
         },
@@ -61,7 +61,7 @@ var data = {
           "img": "https://raw.githubusercontent.com/beautifulBoys/beautifulBoys.github.io/master/source/home/img/a4.jpg",
           "site": {
             "official": "http://login.tmall.com",
-            "model": "https://beautifulboys.github.io/html/tmall/"
+            "model": "https://qizhenshuai.github.io/html/tmall/"
           },
           "content": "偶然发现天猫登录页的登录块是用iframe嵌套的页面，与天猫全站弹出登录是共用的一个页面。很好奇这种方式，为此特意模仿天猫登录页面。相似度95%以上。"
         },
@@ -72,7 +72,7 @@ var data = {
           "img": "https://raw.githubusercontent.com/beautifulBoys/beautifulBoys.github.io/master/source/home/img/a11.jpg",
           "site": {
             "official": "http://www.syuct.edu.cn/",
-            "model": "https://beautifulboys.github.io/html/huada/"
+            "model": "https://qizhenshuai.github.io/html/huada/"
           },
           "content": "由于学校的官网年久失修，板式老套，打算给做个改版，后来未能完成，实为憾事 ^ _ ^。采用php编写后台代码，在此PHP已剔除，只留下了html做展示，共计6个页面。"
         }
